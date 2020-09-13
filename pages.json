@@ -1,0 +1,309 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "安然齐力",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/me/me",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    }, {
+      "path": "pages/beautiful/beautiful",
+      "style": {
+        "navigationBarTitleText": "健康美丽"
+      }
+    }, {
+      "path": "pages/articleDetail/articleDetail",
+      "style": {
+        "navigationBarTitleText": "健康美丽"
+      }
+    }, {
+      "path": "pages/videoDetail/videoDetail",
+      "style": {
+        "navigationBarTitleText": "健康美丽"
+      }
+    }, {
+      "path": "pages/grow/grow",
+      "style": {
+        "navigationBarTitleText": "学习成长-初级阶段"
+      }
+    }, {
+      "path": "pages/myCollect/myCollect",
+      "style": {
+        "navigationBarTitleText": "我的收藏",
+        "enablePullDownRefresh": true
+      }
+    }, {
+      "path": "pages/goods/goods",
+      "style": {
+        "navigationBarTitleText": "产品介绍",
+        "enablePullDownRefresh": true
+      }
+    }, {
+      "path": "pages/myProfile/myProfile",
+      "style": {
+        "navigationBarTitleText": "个人资料"
+      }
+    }, {
+      "path": "pages/myProfile/phoneNumber/phoneNumber",
+      "style": {
+        "navigationBarTitleText": "修改手机号码"
+      }
+    }, {
+      "path": "pages/myProfile/editPhoneNumber/editPhoneNumber",
+      "style": {
+        "navigationBarTitleText": "修改手机号码"
+      }
+    }, {
+      "path": "pages/me/myCard/myCard",
+      "style": {
+        "navigationBarTitleText": "我的名片",
+        "disableScroll": true,
+        "app-plus": {
+          "bounce": "none"
+        }
+      }
+    }, {
+      "path": "pages/me/myCard/newCard/newCard",
+      "style": {
+        "navigationBarTitleText": "添加名片"
+      }
+    }, {
+      "path": "pages/me/myCard/createCard/createCard",
+      "style": {
+        "navigationBarTitleText": "我的名片"
+      }
+    }, {
+      "path": "pages/childrenGrow/childrenGrow",
+      "style": {
+        "navigationBarTitleText": "孩子成长"
+      }
+    }, {
+      "path": "pages/childrenGrow/childrenHabit/childrenHabit",
+      "style": {
+        "navigationBarTitleText": "习惯养成"
+      }
+    }, {
+      "path": "pages/childrenGrow/childrenResume/childrenResume",
+      "style": {
+        "navigationBarTitleText": "简历素材"
+      }
+    }, {
+      "path": "pages/childrenGrow/childrenTarget/childrenTarget",
+      "style": {
+        "navigationBarTitleText": "目标计划"
+      }
+    }, {
+      "path": "pages/childrenGrow/gift/gift",
+      "style": {
+        "navigationBarTitleText": "兑换礼物"
+      }
+    }, {
+      "path": "pages/childrenGrow/record/record",
+      "style": {
+        "navigationBarTitleText": "兑换记录"
+      }
+    }
+
+    , {
+      "path": "pages/childrenGrow/childrenResume/publish/publish",
+      "style": {
+        "navigationBarTitleText": "发布素材"
+      }
+    }, {
+      "path": "pages/childrenGrow/childrenHabit/changeHabit/changeHabit",
+      "style": {
+        "navigationBarTitleText": "调整习惯"
+      }
+    }, {
+      "path": "pages/me/myContribute/myContribute",
+      "style": {
+        "navigationBarTitleText": "我的投稿",
+        "enablePullDownRefresh": true
+      }
+    }, {
+      "path": "pages/me/myContribute/newContribute/newContribute",
+      "style": {
+        "navigationBarTitleText": "投稿"
+      }
+    }, {
+      "path": "pages/me/myContribute/newContribute/video",
+      "style": {
+        "navigationBarTitleText": "视频",
+        "pageOrientation": "auto"
+      }
+    }, {
+      "path": "pages/me/myContribute/newContribute/article",
+      "style": {
+        "navigationBarTitleText": "文章"
+      }
+    }, {
+      "path": "pages/me/myQRCode/myQRCode",
+      "style": {
+        "navigationBarTitleText": "我的微信二维码"
+      }
+    }, {
+      "path": "pages/meet/meet",
+      "style": {
+        "navigationBarTitleText": "遇见美好"
+      }
+    }, {
+      "path": "pages/meet/addMeet/addMeet",
+      "style": {
+        "navigationBarTitleText": "见证美好"
+      }
+    }, {
+      "path": "pages/meet/witness/witness",
+      "style": {
+        "navigationBarTitleText": "见证美好"
+      }
+    }, {
+      "path": "pages/me/myCard/newCard/chooseWitness/chooseWitness",
+      "style": {
+        "navigationBarTitleText": "选择见证"
+      }
+    }, {
+      "path": "pages/me/myCard/newCard/showCard/showCard",
+      "style": {
+        "navigationBarTitleText": "查看名片"
+      }
+    }, {
+      "path": "pages/childrenGrow/childrenTarget/changeTarget/changeTarget",
+      "style": {
+        "navigationBarTitleText": "调整计划"
+      }
+    }, {
+      "path": "pages/meet/createMeet/createMeet",
+      "style": {
+        "navigationBarTitleText": "创建见证"
+      }
+    }, {
+      "path": "pages/me/myCard/newCard/chooseWitness/chooseMeetImage",
+      "style": {
+        "navigationBarTitleText": "选择见证"
+      }
+    }, {
+      "path": "pages/me/myCard/newCard/chooseArticle/chooseArticle",
+      "style": {
+        "navigationBarTitleText": "选择案例"
+      }
+    }, {
+      "path": "pages/myProfile/userinfo/userinfo",
+      "style": {
+        "navigationBarTitleText": "修改个人信息"
+      }
+    },
+    {
+      "path": "pages/upload/upload",
+      "style": {
+        "navigationBarTitleText": "学习资料下载"
+      }
+    }, {
+      "path": "pages/searchPage/searchPage",
+      "style": {
+        "navigationBarTitleText": "搜索"
+      }
+    }, {
+      "path": "pages/activities/activities",
+      "style": {
+        "navigationBarTitleText": "活动"
+      }
+    }, {
+      "path": "pages/information/information",
+      "style": {
+        "navigationBarTitleText": "资讯"
+      }
+    }, {
+      "path": "pages/activities/activityDetail/activityDetail",
+      "style": {
+        "navigationBarTitleText": "活动详情"
+      }
+    }, {
+      "path": "pages/information/infoList/infoList",
+      "style": {
+        "navigationBarTitleText": "资讯"
+      }
+    }, {
+      "path": "pages/information/informationDetail/informationDetail",
+      "style": {
+        "navigationBarTitleText": "资讯详情"
+      }
+    }, {
+      "path": "pages/childrenGrow/children",
+      "style": {
+        "navigationBarTitleText": "孩子成长"
+      }
+    }, {
+      "path": "pages/childrenGrow/createChild/createChild",
+      "style": {
+        "navigationBarTitleText": "添加孩子"
+      }
+    }, {
+      "path": "pages/childrenGrow/childrenHabit/changeHabit/createHabit",
+      "style": {
+        "navigationBarTitleText": "添加习惯"
+      }
+    }, {
+      "path": "pages/hotList/hotList",
+      "style": {
+        "navigationBarTitleText": "热点"
+      }
+    }, {
+      "path": "pages/me/myVCR/myVCR",
+      "style": {
+        "navigationBarTitleText": "我的个人宣传片"
+      }
+    }, {
+      "path": "pages/culture/culture",
+      "style": {
+        "navigationBarTitleText": "企业文化˚"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "安然齐力",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "pageOrientation": "portrait"
+
+  },
+  "tabBar": {
+    "color": "#CCCCCC",
+    "selectedColor": "#ee4f16",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "static/index/首页-默认@2x.png",
+      "selectedIconPath": "static/index/首页-选中@2x.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/me/me",
+      "iconPath": "static/index/个人-默认@2x.png",
+      "selectedIconPath": "static/index/个人-选中@2x.png",
+      "text": "我"
+    }]
+  },
+  "condition": { //模式配置，仅开发期间生效
+    "current": 0, //当前激活的模式(list 的索引项)
+    "list": [{
+      "name": "index", //模式名称
+      "path": "pages/index/index", //启动页面，必选
+      "query": "" //启动参数，在页面的onLoad函数里面得到
+    }]
+  }
+
+}
